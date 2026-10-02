@@ -1,0 +1,41 @@
+000-015 s | Préstamos de equipo de laboratorio
+Demostración automatizada de la app real · Ed25519 + SHA-256 · Sin audio
+
+015-025 s | Un registro que impide préstamos duplicados
+Cada transacción contiene propósito, remitente, contenido y hora. La llave privada la firma.
+
+025-033 s | Bloque 1: transacción firmada
+Se registra el préstamo de Microscopio 01. La firma se verifica antes de iniciar la carrera.
+
+033-048 s | Carrera 1: cuatro hilos prueban nonces
+Captura resumida a 15 s. Duración real: 58.646 s. Cada nodo recorre i + 4k.
+
+048-060 s | Ganador: Nodo 1 · recompensa: 50
+Total repartido: 50 unidades. Los cuatro hilos ya terminaron.
+
+060-068 s | Bloque 2: transacción firmada
+Se registra el préstamo de Osciloscopio 02. La firma se verifica antes de iniciar la carrera.
+
+068-083 s | Carrera 2: cuatro hilos prueban nonces
+Captura resumida a 15 s. Duración real: 7.348 s. Cada nodo recorre i + 4k.
+
+083-095 s | Ganador: Nodo 0 · recompensa: 50
+Total repartido: 100 unidades. Los cuatro hilos ya terminaron.
+
+095-103 s | Bloque 3: transacción firmada
+Se registra el préstamo de Multímetro 03. La firma se verifica antes de iniciar la carrera.
+
+103-118 s | Carrera 3: cuatro hilos prueban nonces
+Captura resumida a 15 s. Duración real: 28.234 s. Cada nodo recorre i + 4k.
+
+118-130 s | Ganador: Nodo 2 · recompensa: 50
+Total repartido: 150 unidades. Los cuatro hilos ya terminaron.
+
+130-145 s | Tres bloques minados y enlazados
+Cada hash_anterior coincide con el hash del bloque previo. El minero también queda sellado.
+
+145-165 s | Alteración detectada: cadena inválida
+Se cambió el contenido del bloque 1. Ya no coincide su hash y la firma tampoco verifica.
+
+165-180 s | Copia original restaurada: cadena válida
+La demo termina con tres bloques, 150 unidades repartidas y todas las carreras detenidas.

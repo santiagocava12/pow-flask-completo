@@ -1,0 +1,32 @@
+{
+  "entorno": {
+    "python": "3.12.14",
+    "sistema": "Windows-11-10.0.26300-SP0",
+    "procesador": "Intel64 Family 6 Model 191 Stepping 2, GenuineIntel",
+    "nodos": 4,
+    "repeticiones": 5
+  },
+  "resultados": [
+    {
+      "dificultad": 3,
+      "promedio_s": 0.04893053999985568,
+      "min_s": 0.0018528000000515021,
+      "max_s": 0.11902280000049359,
+      "promedio_intentos": 3048
+    },
+    {
+      "dificultad": 4,
+      "promedio_s": 1.0614846799999214,
+      "min_s": 0.17841849999967963,
+      "max_s": 3.2715699999998833,
+      "promedio_intentos": 63114.6
+    },
+    {
+      "dificultad": 5,
+      "promedio_s": 10.247619739999937,
+      "min_s": 1.9900941999994757,
+      "max_s": 23.947470999999496,
+      "promedio_intentos": 540712.2
+    }
+  ]
+}

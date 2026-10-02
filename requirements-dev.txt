@@ -1,0 +1,6 @@
+-r requirements.txt
+reportlab>=4,<5
+pypdfium2>=4,<6
+Pillow>=11,<13
+playwright>=1.50,<2
+imageio-ffmpeg>=0.6,<1
