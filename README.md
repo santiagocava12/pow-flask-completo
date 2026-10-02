@@ -38,7 +38,7 @@ Cuatro nodos usan nonces `i + 4k`. Cada uno mina su propia copia con distinto ca
 - `tests/test_simulador.py`: pruebas del funcionamiento, las firmas, reglas y alteraciones.
 - [Reporte en PDF](output/pdf/reporte_pow.pdf): dos páginas con mediciones reales.
 - [Reporte editable en Word](output/reporte_pow.docx): el mismo contenido y la tabla de mediciones en formato editable.
-- [Video de demostración](output/demostracion_pow.mp4): tres minutos con capturas reales y subtítulos; sin audio. Las carreras están resumidas a segmentos de 15 segundos y su tiempo real aparece indicado.
+- El video de demostración se entrega por separado y no se incluye en el repositorio.
 - `output/mediciones.csv` y `output/mediciones.json`: cinco carreras por dificultad, resultados y entorno.
 - `output/evidencia_video.json`: bloques, hashes, firmas, saldos y resultado de la prueba de alteración usada en el video.
 - `output/guion_video.txt`: contenido y tiempos del video.
